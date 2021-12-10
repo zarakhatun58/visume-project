@@ -26,10 +26,10 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/signUp">
+            <Route exact path="/signUp">
               <SignUp />
             </Route>
-            <Route path="/login">
+            <Route exact path="/login">
               <Login />
             </Route>
             <Route path="/about">

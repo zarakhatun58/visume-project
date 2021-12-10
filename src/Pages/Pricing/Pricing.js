@@ -21,97 +21,103 @@ const Pricing = () => {
                   $8
                 </h1>
                 <p class="flex items-center text-center text-blue-800 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center bg-gray-400 justify-center border-green-300 text-blue-800 rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center  justify-center border-green-300 text-blue-800 rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   20 themes
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   60 music files
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   80 audio effects
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   80 audio effects
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   8 language support
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   Email Support
@@ -134,81 +140,86 @@ const Pricing = () => {
                 </p>
 
                 <p class="flex items-center text-white mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   150 themes
                 </p>
                 <p class="flex items-center text-white mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   320 music files
                 </p>
                 <p class="flex items-center text-white mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   500 audio effects
                 </p>
                 <p class="flex items-center text-white mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   80+ language support
                 </p>
                 <p class="flex items-center text-white mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   24/7 Support
@@ -228,49 +239,52 @@ const Pricing = () => {
                   and pricing.
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   Everything From All Rounder
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   24/7 Priority Support
                 </p>
                 <p class="flex items-center text-blue-700 mb-6 ml-14">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center  text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      stroke-width="2.5"
-                      class="w-3 h-3"
+                      stroke-width="2"
+                      class="text-green-300 w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M20 6L9 17l-5-5"></path>
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                      <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                   </span>
                   And many more..
