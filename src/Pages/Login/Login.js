@@ -5,7 +5,6 @@ import { useForm } from "react-hook-form";
 import useAuth from "../../hooks/useAuth";
 import { useHistory } from "react-router";
 import { useLocation } from "react-router";
-import { Alert } from "react-bootstrap";
 
 const Login = () => {
   const {
@@ -17,7 +16,7 @@ const Login = () => {
     setIsLoading,
     handleEmailLogin,
   } = useAuth();
-  const { register, handleSubmit, reset } = useForm();
+  const { handleSubmit, reset } = useForm();
   const history = useHistory();
   const location = useLocation();
 
@@ -56,67 +55,61 @@ const Login = () => {
   };
   return (
     <>
-      <div className="bg-light py-5">
-        <div className=" pb-5">
-          <h3 className="text-center  pb-3">Login</h3>
-          <div className="w-75 mx-auto">
-            <form onSubmit={handleSubmit(onSubmit)}>
-              <input
-                type="email"
-                className="form-control  mb-3"
-                {...register("email")}
-                placeholder="Your Email"
-                required
-              />
-              <input
-                type="password"
-                className="form-control  mb-3"
-                {...register("password")}
-                placeholder="Your password"
-                required
-              />
-              <button className="btn btn-primary w-100 fw-bold" type="submit">
-                Login
-              </button>
-            </form>
-          </div>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <div class="mb-4">
+          <label class="block text-md font-light mb-2" for="username">
+            Username
+          </label>
+          <input
+            class="w-full bg-drabya-gray border-gray-500 appearance-none border p-4 font-light leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            name="username"
+            id=""
+            placeholder="Username"
+          />
+        </div>
+        <div class="mb-4">
+          <label class="block text-md font-light mb-2" for="password">
+            Password
+          </label>
+          <input
+            class="w-full bg-drabya-gray border-gray-500 appearance-none border p-4 font-light leading-tight focus:outline-none focus:shadow-outline"
+            type="password"
+            name="password"
+            id=""
+            placeholder="Password"
+          />
         </div>
 
-        <div className="mx-auto p-0">
-          <div className="text-center">
-            {!user?.displayName ? (
-              <button
-                onClick={handleGoogleLogin}
-                className="btn btn-primary text-white"
-              >
-                Google sign In
-              </button>
-            ) : (
-              <button
-                onClick={handleLogOut}
-                className="btn btn-primary mt-3 text-white"
-              >
-                Log Out
-              </button>
-            )}
-            <br />
-            <Link
-              className="text-success"
-              style={{
-                textDecoration: "none",
-                color: "#000",
-                marginTop: "10px",
-              }}
-              to="/register"
+        <div class="flex items-center justify-between mb-5">
+          <Link to="/login">
+            {" "}
+            <button
+              onClick={handleGoogleLogin}
+              class="bg-indigo-600 hover:bg-blue-700 text-white font-light py-2 px-6 rounded focus:outline-none focus:shadow-outline"
+              type="button"
             >
-              New User ? Please Register
-            </Link>
-            {user?.email && (
-              <Alert severity="success">Login successfully!</Alert>
-            )}
-          </div>
+              Sign In
+            </button>{" "}
+          </Link>
+          <Link to="/signUp">
+            <button
+              onClick={handleLogOut}
+              class="bg-indigo-600 hover:bg-blue-700 text-white font-light py-2 px-6 rounded focus:outline-none focus:shadow-outline"
+              type="button"
+            >
+              Log Out
+            </button>{" "}
+          </Link>
         </div>
-      </div>
+        <p class="text-center text-md font-light">
+          Don't have an account?{" "}
+          <Link to="/signUp" class="font-light text-md text-indigo-600">
+            Sign Up
+          </Link>
+          {user?.email && <alert severity="success">Login successfully!</alert>}
+        </p>
+      </form>
     </>
   );
 };

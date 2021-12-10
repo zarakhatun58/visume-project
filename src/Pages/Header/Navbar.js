@@ -32,12 +32,16 @@ const Navbar = () => {
               Contact
             </Link>
           </nav>
-          <button class="mr-5 inline-flex items-center text-white bg-blue-800 border-0 py-1 px-3 focus:outline-none hover:bg-white  hover:text-blue-700 rounded   mt-4 md:mt-0">
-            Sign in
-          </button>
-          <button class=" text-white bg-transparent inline-flex items-center  bg-blue-800  border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-blue-700 rounded  mt-4 md:mt-0">
-            Sign up
-          </button>
+          <Link to="/login">
+            <button class="mr-5 inline-flex items-center text-white bg-blue-800 border-0 py-1 px-3 focus:outline-none hover:bg-white  hover:text-blue-700 rounded   mt-4 md:mt-0">
+              Sign in
+            </button>
+          </Link>
+          <Link to="/signUp">
+            <button class=" text-white bg-transparent inline-flex items-center  bg-blue-800  border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-blue-700 rounded  mt-4 md:mt-0">
+              Sign up
+            </button>
+          </Link>
         </div>
       </header>
     </div>

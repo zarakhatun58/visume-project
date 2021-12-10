@@ -8,6 +8,8 @@ import Pricing from "./Pages/Pricing/Pricing";
 import Navbar from "./Pages/Header/Navbar";
 import Contact from "./Pages/Contact/Contact";
 import Social from "./Pages/Social/Social";
+import Login from "./Pages/Login/Login";
+import SignUp from "./Pages/Login/SignUp";
 
 function App() {
   return (
@@ -23,6 +25,13 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
+            <Route path="/signUp">
+              <SignUp />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+
             <Route path="/pricing">
               <Home />
             </Route>
@@ -30,7 +39,7 @@ function App() {
               <Social />
             </Route>
 
-            <Route exact path="/contact">
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
