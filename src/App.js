@@ -4,12 +4,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 
 import Footer from "./Pages/Footer/Footer";
-import Pricing from "./Pages/Pricing/Pricing";
-import Navbar from "./Pages/Header/Navbar";
+
 import Contact from "./Pages/Contact/Contact";
 import Social from "./Pages/Social/Social";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/Login/SignUp";
+import About from "./Pages/About/About";
+import Navbar from "./Pages/Header/Navbar";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <AuthProvider>
         <Router>
           <Navbar />
-          <Pricing></Pricing>
+
           <Switch>
             <Route path="/">
               <Home />
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login />
+            </Route>
+            <Route path="/about">
+              <About />
             </Route>
 
             <Route path="/pricing">

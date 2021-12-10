@@ -3,9 +3,13 @@ import React from "react";
 const Social = () => {
   return (
     <div>
-      <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 ml-20 mr-20">
+      <div class="text-left ml-20 mb-8">
+        <p class="text-green-300 font-bold">Social</p>
+        <h3 class="text-blue-700 font-bold ">What do Your Customer say?</h3>
+      </div>
+      <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0  mr-20">
         <img
-          class="w-32 rounded bg-green-300 h-32 pt-8 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
+          class="w-32 rounded-2 bg-green-300 h-32 pt-8 md:w-48 md:h-auto  mx-auto"
           src="https://i.ibb.co/x8r8MBG/ma3.png"
           alt=""
           width="384"
@@ -22,7 +26,7 @@ const Social = () => {
             </p>
           </blockquote>
           <figcaption class="font-medium">
-            <div class="text-cyan-600">Linda Jermy</div>
+            <div class="text-blue-700">Linda Jermy</div>
             <div class="text-gray-500">Commerce Student</div>
           </figcaption>
         </div>
